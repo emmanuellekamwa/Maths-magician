@@ -1,27 +1,35 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  padding: 40px;
+}
+
+.calculator {
+  width: 400px;
+  margin: auto auto;
+}
+
+.button-key {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 25%;
+  height: 4.5rem;
+  border-radius: 0;
+  border: solid 1px #e0e0e0;
+}
+
+.btn-key {
+  width: 50%;
+}
+
+.btn-operator {
+  background-color: #f5913e;
+  width: 25%;
 }
