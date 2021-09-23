@@ -31,5 +31,13 @@ body {
 
 .btn-operator {
   background-color: #f5913e;
+  border: solid 1px #e0e0e0;
   width: 25%;
+}
+
+.displayNumber {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: grey;
 }
