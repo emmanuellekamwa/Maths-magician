@@ -31,7 +31,7 @@ class Calculator extends React.Component {
           <button onClick={() => this.calculating('7')} data="7" className="btn" type="button">7</button>
           <button onClick={() => this.calculating('8')} data="8" className="btn" type="button">8</button>
           <button onClick={() => this.calculating('9')} data="9" className="btn" type="button">9</button>
-          <button onClick={() => this.calculating('X')} data="X" className="btn-operator" type="button">X</button>
+          <button onClick={() => this.calculating('x')} data="x" className="btn-operator" type="button">x</button>
           <button onClick={() => this.calculating('4')} data="4" className="btn" type="button">4</button>
           <button onClick={() => this.calculating('5')} data="5" className="btn" type="button">5</button>
           <button onClick={() => this.calculating('6')} data="6" className="btn" type="button">6</button>
@@ -49,6 +49,7 @@ class Calculator extends React.Component {
   }
 }
 
-Calculator.propTypes = { start: PropTypes.number.isRequired };
+Calculator.propTypes = { start: PropTypes.number };
+Calculator.defaultProps = { start: 0 };
 
 export default Calculator;
