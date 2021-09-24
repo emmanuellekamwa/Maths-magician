@@ -10,10 +10,10 @@ class App extends React.Component {
   }
 
   render() {
-    const { startValue: start } = this.state;
+    const { startValue } = this.state;
     return (
       <div className="App">
-        <Calculator result={start} />
+        <Calculator result={startValue} />
       </div>
     );
   }
