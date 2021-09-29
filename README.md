@@ -4,7 +4,7 @@
 
 > This is a Single page app that allows users to make simple calculations.
 
-![screenshot](./calculator.png)
+![screenshot](./full-page.png)
 
 ## Built With
 
