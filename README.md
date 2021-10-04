@@ -6,6 +6,10 @@
 
 ![screenshot](./full-page.png)
 
+## Live demo 
+
+[Heroku](https://maths-magical.herokuapp.com/)
+
 ## Built With
 
 - React
